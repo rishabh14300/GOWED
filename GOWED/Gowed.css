@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  text-align: center;
+  /* background-color: #F9F9F9; */
+   background-color: #F8F9F9; 
+}
+
+header {
+  background: linear-gradient(rgb(117, 115, 115),rgb(111,112,100));
+  background-image: url("land1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+/* NavBar CSS */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+   /* background-color: white;  */
+   background: rgba(22, 21, 21, 0.5);
+   position: fixed;
+}
+
+nav img {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display:flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style: none;
+  text-transform: uppercase;
+  color:white;
+  font-weight:bold;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: #F8F9F9;
+}
+
+nav li a:hover {
+  color: rgb(247, 18, 18);
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+/* Intro CSS */
+.Intro {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  background: rgba(22, 21, 21, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0,0, .25);
+  padding: 50px;
+  height: 85vh;
+}
+
+.Intro h1 {
+  color: #FFB319;
+  font-family: 'Play', sans-serif;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+.Intro p {
+  color: #FEFBF3;
+  font-family: 'Satisfy', cursive;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.search-txt {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.search-btn {
+  color: #e84118;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: inline-end;
+  position: relative;
+  right: 45px;
+}
+
+/* Carousel */
+
+/* #carouselExampleIndicators {
+  width: 50%;
+  margin: 40px auto;
+} */
+
+/* Venues  */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.column {
+  margin: 1rem;
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.book {
+  margin: 1rem;
+  padding: 5px;
+  background-color: #290FBA;
+  color: #f1f1f1;
+  
+}
+
+/* How it works CSS */
+.working {
+  background-color: #F8F9F9;
+}
+.working h2, h2 {
+  position: relative;
+  top: 40px;
+  text-align: center;
+  color: #FF2442;
+  font-family: 'Play', sans-serif;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.itsWork {
+  width: 60%;
+  /* background-color:white;  */
+  margin: 150px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.walking-img {
+  width: 30%;
+}
+.work-img {
+  width: 25%;
+  float: left;
+  margin-right: 10px;
+}
+
+.learn-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.price-img {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.comp-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+footer {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  background-color: #002366;
+  list-style: none;
+  color: white;
+  line-height: 2;
+  width: 100vw;
+}
+
+footer a {
+  font-size: 12px;
+}
+
+footer div {
+  margin: 50px;
+}
+
+i {
+  margin: auto 8px auto 10px;
+}
+.terms li a, .spot li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+.social a i {
+  color: #FEFBF3;
+}
+
+.carousel-item {
+  width: 20%;
+}
+
+/* Responsive */
+/* Desktop and laptop */
+/* Tablets and iPads */
+/* Mobile Phones */
+
+@media only screen and (max-width: 1000px) {
+  footer {
+    display: block;
+  }
+  footer div {
+    margin-bottom: 0;
+  }
+  .work-img, .price-img, .comp-img, .learn-img {
+    float: none;
+    margin: 0;
+  }
+}
